@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer__row {
+  display: flex;
+}
+.footer__date > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  font-family: var(--secondfont);
+}
+.footer__naming {
+  margin-left: 50px;
+}
+.footer__naming > p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  font-family: var(--secondfont);
+}

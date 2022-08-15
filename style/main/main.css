@@ -1,0 +1,13 @@
+:root {
+
+	--firstfont:'Anton', sans-serif;
+	--secondfont:'Open Sans', sans-serif;
+	--titleColor:#000000;
+	--textColor:#000000;
+	--graoundmobile:#321906;
+
+}
+.container{
+	max-width: 1170px;
+	margin: 0px auto;
+}

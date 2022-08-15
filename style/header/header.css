@@ -1,0 +1,86 @@
+.header {
+  background-image: url(../../img/header/home.png);
+  min-height: 900px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+}
+.headerTop__row {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  padding-right: 60px;
+}
+.header__menu {
+  display: flex;
+}
+.header__menu > li {
+  list-style-type: none;
+  padding-right: 30px;
+}
+.header__menu > li:nth-child(4) {
+  padding-right: 0px;
+}
+.header__menu > li > a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--firstfont);
+  letter-spacing: 0.1em;
+}
+.header__menu > li > a:hover {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+}
+.header__tel {
+  margin-left: auto;
+}
+.header__tel > a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: var(--firstfont);
+  letter-spacing: 0.1em;
+}
+.headerDown__row {
+  margin-top: 241px;
+}
+.headerEvent__Text {
+  margin-top: 30px;
+}
+.headerEvent__Text > h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  font-family: var(--firstfont);
+}
+.headerBurning__text > h3 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 100px;
+  font-family: var(--firstfont);
+}
+.btn__header {
+  margin-top: 30px;
+}
+.btn__header > a {
+  color: #fff;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.1em;
+  font-family: var(--firstfont);
+  border: 1px solid #fff;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.burger__btn {
+  display: none;
+}
+.burger__btn > img {
+  max-width: 25%;
+}

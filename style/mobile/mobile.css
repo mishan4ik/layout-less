@@ -1,0 +1,37 @@
+.headerTop__mobile__row {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--graoundmobile);
+  opacity: 0.8;
+  display: none;
+}
+.header__mobile__logo {
+  text-align: center;
+  padding-right: 0px;
+  margin-top: 100px;
+}
+.header__mobile__menu {
+  display: block;
+  text-align: center;
+  margin-top: 100px;
+}
+.header__mobile__menu > li {
+  padding-right: 0px;
+  margin-top: 30px;
+}
+.header__mobile__menu > li > a {
+  border: 1px solid #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.header__tel__mobile {
+  text-align: center;
+  margin-top: 100px;
+}
